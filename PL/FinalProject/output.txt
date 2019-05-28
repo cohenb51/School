@@ -1,0 +1,158 @@
+Hello World!
+running OOPPython
+this 2
+assignment 1
+is 1
+going 2
+to 2
+be 1
+really 3
+easy 1
+i 2
+think 1
+im 1
+start 1
+week 1
+yes 1
+am 1
+99 1
+1/8 completed
+
+running Functional Python
+['This assignment is going to be really easy', "I think I'm going to start This week. Yes, I really really am 99.  "]
+this 2
+assignment 1
+is 1
+going 2
+to 2
+be 1
+really 3
+easy 1
+i 2
+think 1
+im 1
+start 1
+week 1
+yes 1
+am 1
+99 1
+2/8 completed
+
+running CImperative
+compiling CImperative
+this 2
+assignment 1
+is 1
+going 2
+to 2
+be 1
+really 3
+easy 1
+i 2
+think 1
+im 1
+start 1
+week 1
+yes 1
+am 1
+99 1
+removing main.exe
+3/8 completed
+
+running cFunctional
+this 2
+assignment 1
+is 1
+going 2
+to 2
+be 1
+really 3
+easy 1
+i 2
+think 1
+im 1
+start 1
+week 1
+yes 1
+am 1
+99 1
+removing main.exe
+4/8 completed
+
+running OOP JS
+99 1
+this 2
+assignment 1
+is 1
+going 2
+to 2
+be 1
+really 3
+easy 1
+i 2
+think 1
+im 1
+start 1
+week 1
+yes 1
+am 1
+5/8 completed
+
+running Functional JS
+99 1
+this 2
+assignment 1
+is 1
+going 2
+to 2
+be 1
+really 3
+easy 1
+i 2
+think 1
+im 1
+start 1
+week 1
+yes 1
+am 1
+6/8 completed
+
+running Java OOP
+this 2
+assignment 1
+is 1
+going 2
+to 2
+be 1
+really 3
+easy 1
+i 2
+think 1
+im 1
+start 1
+week 1
+yes 1
+am 1
+99 1
+7/8 complete
+
+running Java Functional
+99 1
+think 1
+week 1
+be 1
+im 1
+going 2
+yes 1
+assignment 1
+start 1
+this 2
+i 2
+is 1
+am 1
+easy 1
+really 3
+to 2
+8/8 completed
+
+done

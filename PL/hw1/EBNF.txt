@@ -1,0 +1,37 @@
+Address = Name, Street, City, State, Zip;
+Name = Name-Part, [Letter,"."], Name-Part, [Name-Suffix];
+Name-Part = Letter, {Letter};
+Name-Suffix = "Jr." | "Sr." | Roman-Numeral;
+Roman-Numeral = Roman-Numeral-Part, {Roman-Numeral-Part};
+Letter = "a"|"b"|"c"|"d"|"e"|"f"|"g"|"h"|"i"|"j"|"k"|"l"|"m"|"n"|"o"|"p"|"q"|"r"|"s"|"t"|"u"|"v"|"w"|"x"|"y"|"z"|"A"|"B"|"C"|"D"|"E"|"F"|"G"|"H"|"I"|"J"|"K"|'"L"|"M"|"N"|"O"|"P"|"Q"|"R"|"S"|"T"|"U"|"V"|"W"|"X"|"Y"|"Z"";
+Roman-Numeral-Part = "I"|"V"|"X"|"L"|"C"|"D"|"M";
+Street = Street-Number, Street-Name;
+Street-Number = digit, {digit};
+digit = "0"|"1"|"2"|"3"|"4"|"5"|"6"|"7"|"8"|"9";
+Street-Name = Name-Part, Street-Type;
+Stree-Type = "Ave." | "St." | "Ct." |"Blvd."|"Dr.";
+City = Name-Part;
+State = (Name-Part, [Name-Part]) | (Letter, ".", Letter, ".");
+Zip =  5 * digit, [“-” 4* digit];
+
+
+Human-Body = Externals, Innards;
+Externals = Extremities, Head, Neck, Torso;
+Extremities = (2 * Leg), (2 * Arm);
+Leg = "thigh", "knee", "calf", "shin", "ankle", "foot";
+Arm = "upper arm", "forearm", "wrist", "hand";
+Head = "forehead", "temple", ["hair"], "left ear", "right ear", "left eye", "right eye",
+       "nose", "mouth", "jaw";
+Innards = Body-Systems;
+Body-Systems = Muscular-System, Digestive-System, Respiratory-System,  Urinary-System, Endocrine-System, Circulatory-System, Nervous-System;
+Muscluar-System = "bones", "joints", "ligaments", "tendons";
+Digestive-System = "mouth", "esophagus", "stomach", "large intestine", "small intestine", "liver", ["gallbladder"], "pancreas";
+Respiratory-System = "nose", "pharynx", "larynx", "trachea", "bronchi", "lungs", "diaphragm";
+Urinary-System = "kidney", ["kidney"], "spleen", "bladder";
+Endocrine-System = "glands";
+Circulatory-System = "heart", "arteries", "veins", "capillaries", "blood";
+Nervous-System = "brain","brainstem","spinal chord", "nerves";
+
+
+
+
